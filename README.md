@@ -47,8 +47,8 @@ We use the following shorthand notation for the 30 complex traits,
 | HBA1C | [HBA1C][6] |
 | HDL | [High Density Lipoprotein][7] |
 | LDL | [Low Density Lipoprotein][7] |
-| TG | [Triglyceride][7] |
-| TC | [Total Cholestero][7] |
+| TG | [Triglycerides][7] |
+| TC | [Total Cholesterol][7] |
 | EY | [Education Years][8] |
 | COL | [College][8] |
 | FA | [Forearm BMD][9] |
@@ -63,6 +63,7 @@ We use the following shorthand notation for the 30 complex traits,
 | T2D | [Type 2 Diabetes][14] |
 
 Similarly, the gene expression study panels used to train models are
+
 | Shortname | Panel |
 | --------- | ----- |
 | CMC | [Commonmind consortium][15] |
