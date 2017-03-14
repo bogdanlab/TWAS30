@@ -1,5 +1,5 @@
 TWAS30
-------
+======
 This repository contains transcriptome-wide association study (TWAS) summary statistics for the
 30 traits reported in
 
@@ -27,6 +27,8 @@ A description of each of these columns is provided below,
 | GWAS.HSQ.LOCAL | Local heritability estimate of GWAS trait |
 | ALPHA | Standardized effect of gene/transcript expression on trait |
 
+Traits
+------
 We use the following shorthand notation for the 30 complex traits,
 
 | Shortname | Trait |
@@ -62,9 +64,11 @@ We use the following shorthand notation for the 30 complex traits,
 | UC | [Ulcerative Colitis][13] |
 | T2D | [Type 2 Diabetes][14] |
 
+Gene Expression
+---------------
 Similarly, the gene expression study panels used to train models are
 
-| Shortname | Panel |
+| Shortname | Expression Study |
 | --------- | ----- |
 | CMC | [Commonmind consortium][15] |
 | GTEX | [Genotype-Tissue Expression Consortium][16] |
@@ -72,6 +76,8 @@ Similarly, the gene expression study panels used to train models are
 | NTR | [National Twins Registry][18] |
 | YFS | [Cardiovascular Risk in Young Finns Study][19] |
 
+Software and support
+--------------------
 To compute the genetic correlation of two traits using estimated effects of gene expression, please see [RHOGE](http://github.com/bogdanlab/RHOGE).
 
 For performing TWAS using summary-data, computing expression weights using custom expression panels, and additional post-TWAS analyses please see [FUSION](http://github.com/gusevlab/fusion_twas).
@@ -97,3 +103,4 @@ If you have any questions or comments please contact nmancuso@mednet.ucla.edu
 [17]: http://www.jlr.org/cgi/pmidlookup?view=long&pmid=28119442
 [18]: http://www.nationalbiobanks.fi/index.php/studies2/30-finnish-twin-cohort
 [19]: http://youngfinnsstudy.utu.fi/
+
