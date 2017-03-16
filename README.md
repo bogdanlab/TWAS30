@@ -29,7 +29,9 @@ header naming the 12 columns.  A description of each of these columns is provide
 
 Traits
 ------
-We use the following shorthand notation for the 30 complex traits,
+Our study made use of 30 publically available GWAS summary statistics to identify genes whose cis-regulated expression 
+is associated with trait/disease status. The original GWAS publications, along with our shorthand notation, are listed
+below.
 
 | Shortname | Trait |
 |-----|--------------|
@@ -66,7 +68,8 @@ We use the following shorthand notation for the 30 complex traits,
 
 Gene Expression
 ---------------
-Similarly, the gene expression study panels used to train models are
+Similarly, we incorporated gene expression measured in more than 40 tissues from 5 studies. The shorthand
+notation for the original eQTL study and publication are detailed below.
 
 | Shortname | Expression Study |
 | --------- | ----- |
