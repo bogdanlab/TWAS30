@@ -9,8 +9,8 @@ Nicholas Mancuso, Huwenbo Shi, Pagé Goddard, Gleb Kichaev,
 Alexander Gusev, Bogdan Pasaniuc.
 American Journal of Human Genetics. 2017 Feb. [doi: 10.1016/j.ajhg.2017.01.031](http://www.cell.com/ajhg/fulltext/S0002-9297(17)30032-0)
 
-Each `*.txt` file contains the TWAS results for a particular trait. Each file is prefixed with a header naming the 12 columns.
-A description of each of these columns is provided below,
+Each `*.txt` file contains the TWAS results for a particular trait. Each file is prefixed with a
+header naming the 12 columns.  A description of each of these columns is provided below,
 
 | Column | Description |
 | ------ | ----------- |
@@ -78,9 +78,11 @@ Similarly, the gene expression study panels used to train models are
 
 Software and support
 --------------------
-To compute the genetic correlation of two traits using estimated effects of gene expression, please see [RHOGE](http://github.com/bogdanlab/RHOGE).
+To compute the genetic correlation of two traits using estimated effects of gene expression, please
+see [RHOGE](http://github.com/bogdanlab/RHOGE).
 
-For performing TWAS using summary-data, computing expression weights using custom expression panels, and additional post-TWAS analyses please see [FUSION](http://github.com/gusevlab/fusion_twas).
+For performing TWAS using summary-data, computing expression weights using custom expression panels,
+and additional post-TWAS analyses please see [FUSION](http://github.com/gusevlab/fusion_twas).
 
 If you have any questions or comments please contact nmancuso@mednet.ucla.edu
 
